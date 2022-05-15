@@ -1,0 +1,29 @@
+.delete {
+  display: flex;
+  width: 100%;
+}
+.deleteMain {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.deleteMain h1 {
+  margin: 0 0 0 1.5rem;
+  font-weight: normal;
+}
+
+.deleteMain p {
+  align-self: center;
+  margin: 2rem;
+}
+
+.deleteMain span {
+  font-weight: bold;
+}
+
+.actionButtons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}

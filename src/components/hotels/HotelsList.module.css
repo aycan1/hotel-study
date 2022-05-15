@@ -1,0 +1,35 @@
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.sorting {
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.addButton {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.addButton p {
+  font-weight: bold;
+  margin: 0;
+}
+
+.sorting button {
+  font: inherit;
+  color: #0f70fd;
+  border: 1px solid #0f70fd;
+  background-color: transparent;
+  border-radius: 4px;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+}
+
+.sorting button:hover {
+  background-color: #f6f9fd;
+}

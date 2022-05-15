@@ -1,0 +1,31 @@
+.paginationDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.pageLink {
+  color: #0000005d;
+  text-decoration: none;
+  margin: 0.5rem;
+}
+.pageLink:hover,
+.pageLink:focus {
+  cursor: pointer;
+  font-weight: bold;
+  color: #000000d7;
+}
+ul {
+  list-style-type: none;
+}
+
+button {
+  border: none;
+  padding: 0;
+  background-color: white;
+}

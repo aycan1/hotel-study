@@ -1,0 +1,56 @@
+.item {
+  width: 100%;
+  margin: 1rem 0;
+  display: flex;
+  align-items: flex-end;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background-color: #ffffff;
+}
+
+.item:hover {
+  background-color: #f6f9fd;
+}
+
+.cover {
+  margin: 0;
+  padding: 1rem;
+  font-size: 1rem;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+}
+
+.infoBox {
+  width: 60%;
+  margin: 0 1rem;
+}
+
+.hotelName {
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.score {
+  line-height: 1.5em;
+  width: 40%;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+  background-color: #f6f9fd;
+  color: #0ec5bc;
+  margin: 0.3rem 0 2rem 0;
+  padding-left: 0.5rem;
+}
+
+.cover img {
+  width: 30%;
+  height: 10rem;
+  min-width: 8rem;
+  border-radius: 6px;
+}
+
+.deleteBtn {
+  align-self: flex-start;
+  width: 1.7rem;
+}
